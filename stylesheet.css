@@ -20,14 +20,10 @@ a {
 }
 .container {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
     height:100%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
+    position: relative;
 }
 .container > ul {
     flex-basis: 20%;
@@ -55,17 +51,12 @@ ul {
 .container ul.section3 {
     padding-right: 2%;
     flex-grow: 1;
-    overflow:auto;
 }
 .container ul.section2 {
-    padding-right: 2%;
     flex-grow: 1;
-    overflow:auto;
 }
 .container ul.section1 {
-    padding-right: 2%;
     flex-grow: 1;
-    overflow:auto;
 }
 .section1 p {
     font-size: 11px;
