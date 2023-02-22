@@ -33,7 +33,6 @@ a {
     height: 100%;
 }
 .container li img {
-    object-fit: cover;
     max-width: 100%;
     height: auto;
     vertical-align: middle;
