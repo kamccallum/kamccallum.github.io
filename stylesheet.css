@@ -66,3 +66,8 @@ ul {
 .section3 p {
     font-size: 11px;
 }
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
