@@ -72,22 +72,8 @@ ul {
     font-size: 11px;
 }
 @media (max-width: 800px) {
-    .container ul.aboutme {
+    .container ul {
         flex: 100%;
-  }
-}
-@media (max-width: 800px) {
-    .container ul.section3 {
-        flex: 100%;
-  }
-}
-@media (max-width: 800px) {
-    .container ul.section2 {
-        flex: 100%;
-  }
-}
-@media (max-width: 800px) {
-    .container ul.section1 {
-        flex: 100%;
+        justify-content: center;
   }
 }
