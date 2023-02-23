@@ -74,6 +74,6 @@ ul {
 @media (max-width: 800px) {
     .container ul {
         flex: 100%;
-        margin-right: 15%;
+        margin-right: 10%;
   }
 }
