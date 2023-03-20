@@ -1,3 +1,9 @@
+h1 {
+  font-family:monaco;
+  font-size: 30px;
+  font-weight: bold;
+  color: #333333;
+}
 h2 {
   font-family:monaco;
   font-size: 20px;
@@ -76,4 +82,27 @@ ul {
         flex: 100%;
         margin-right: 10%;
   }
+}
+.AlexandraImage {
+    float: left;
+}
+.container2 {
+    display:flex;
+    flex-direction:column;
+    width:50%;
+    height:600px;
+    flex-wrap: wrap;
+    margin-left:-20%;
+}
+.full {
+    display: flex;
+    flex-direction: row;
+    position: static;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.image {
+    width:30%;
 }
