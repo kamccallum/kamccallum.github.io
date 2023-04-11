@@ -82,6 +82,9 @@ ul {
         flex: 100%;
         margin-right: 10%;
   }
+    #Capa_1 {
+        visibility: hidden;
+    }
 }
 .AlexandraImage {
     float: left;
