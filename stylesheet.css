@@ -24,50 +24,6 @@ p {
 a {
   color: #72495F;
 }
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    height:100%;
-    position: relative;
-}
-.container > ul {
-    flex-basis: 100px;
-    display: flex;
-    flex-direction: column;
-    min-height: 0;
-    height: 100%;
-}
-.container li img {
-    max-width: 100%;
-    height: auto;
-    vertical-align: middle;
-    padding: 2%;
-}
-ul {
-  list-style-type: none;
-}
-.container ul.aboutme {
-    flex-basis: 25%;
-    text-align: left;
-    display: inline-block;
-    margin-left: -1%;
-    height: 100%;
-    
-}
-.container ul.section3 {
-    padding-right: 2%;
-    flex-grow: 1;
-    height: 100%;
-}
-.container ul.section2 {
-    flex-grow: 1;
-    height: 100%;
-}
-.container ul.section1 {
-    flex-grow: 1;
-    height: 100%;
-}
 .section1 p {
     font-size: 11px;
 }
@@ -78,51 +34,20 @@ ul {
     font-size: 11px;
 }
 @media (max-width: 800px) {
-    .container ul {
-        flex: 100%;
-        margin-right: 10%;
-  }
     #Capa_1 {
         visibility: hidden;
     }
-}
-.AlexandraImage {
-    float: left;
-}
-.container2 {
-    display:flex;
-    flex-direction:column;
-    width:50%;
-    height:600px;
-    flex-wrap: wrap;
-    margin-left:-20%;
-}
-.full {
-    display: flex;
-    flex-direction: row;
-    position: static;
-    justify-content:space-around;
-    flex-wrap: wrap;
-    margin-left: 10%;
-    margin-right: 10%;
-    align-items: flex-end;
-}
-.image {
-    width:30%;
-}
-.full div {
-    height:600px;
 }
 #Capa_1 {
     width:500px;
     position: absolute;
     z-index: -10;
-    top:60%;
+    top:50%;
     left: 5%;
-    opacity: 40%;
-    -webkit-animation: spin infinite 7s 
+    opacity: 60%;
+    animation: spin infinite 7s 
 }
-@-webkit-keyframes spin {
+@keyframes spin {
     0% {
       transform: rotate(0deg);
       transform-origin: center;
@@ -134,3 +59,15 @@ ul {
       transform-box: fill-box;
     }
   }
+.btn {
+    background-color: transparent;
+    color: #333333;
+    font-family: monaco;
+    font-size: 12px;
+    color: #333333;
+    margin-bottom: 1vw;
+    border: transparent;
+}
+img:hover {
+    cursor: pointer;
+}

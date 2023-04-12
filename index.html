@@ -5,6 +5,10 @@
         <title> Kyla's Portfolio </title>
         <link rel="icon" type="image/x-icon" href="/photos/favicon.png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <link rel="stylesheet" href="stylesheet.css">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
     </head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <body>
@@ -48,65 +52,99 @@
             <path class="cls-1" d="m680.94,311.39c-1.45-.89-2.34-2.28-2.76-3.8-.43-1.51-.28-3.18.55-4.66,0,0,1.49-2.71,2.98-5.42,1.47-2.77,2.95-5.54,2.95-5.54.82-1.55,2.11-2.61,3.61-3.08,1.5-.47,3.22-.35,4.7.53l5.65,3.35c3.38,2.05,7.98,4.86,12.5,7.85,8.81,5.99,17.75,12.73,17.75,12.73l-34.08,6.97m45.14-24.13s-3.79-2.94-9.81-6.97c-5.97-4.05-13.75-9.21-21.96-13.78-4.06-2.3-8.01-4.54-11.83-6.5-3.87-1.95-7.46-3.68-10.52-5.12-3.06-1.44-5.59-2.59-7.36-3.39-1.79-.78-2.85-1.2-2.85-1.2l31.97-13.74s.7.33,1.92.92c1.21.59,2.88,1.47,4.93,2.54,4.07,2.13,9.54,5.09,15.06,8.23,5.38,3.18,10.71,6.57,14.77,9.19,2.03,1.33,3.71,2.43,4.9,3.21,1.2.78,1.83,1.25,1.83,1.25,3.14,2.21,4.52,7.01,3.02,10.58,0,0-1.36,3.2-2.72,6.4-.66,1.58-1.41,3.17-1.98,4.35-.56,1.18-.94,1.97-.94,1.97-1.66,3.47-5.46,4.33-8.45,2.08Zm-93.38,33.99l-34.08,6.97s3-3.47,7.45-9.08c4.6-5.65,9.94-13.38,15.37-21.81,2.54-4.15,5.01-8.43,7.31-12.57,1.13-2.06,2.29-4.11,3.25-6.03.95-1.94,1.86-3.78,2.69-5.47,3.3-6.86,5.41-11.7,5.41-11.7,1.27-3.04,4.83-4.62,8.01-3.38,0,0,2.81,1.19,5.61,2.37,2.83,1.25,5.66,2.49,5.66,2.49,3.12,1.41,4.67,5.15,3.12,8.3m-76.28,19.64c-2.92-.82-3.94-3.52-2.42-6.15l.75-1.35,31.97-13.74s-.16.35-.44.96c-.27.6-.69,1.47-1.23,2.52-1.06,2.09-2.48,4.85-3.93,7.54-1.44,2.69-2.9,5.33-4.01,7.27-.54.97-1.06,1.79-1.4,2.36-.35.57-.55.89-.55.89-1.64,2.67-5.33,3.92-8.19,2.93,0,0-2.55-.91-5.26-1.69-2.65-.77-5.3-1.55-5.3-1.55Z"/>
             <path class="cls-1" d="m689.42,372.49c-1.24-1.16-1.86-2.7-1.92-4.28-.12-1.57.36-3.17,1.47-4.45,0,0,2-2.35,4-4.7,2-2.41,3.99-4.83,3.99-4.83,2.2-2.7,6.07-3.14,8.66-.82,0,0,1.95,1.77,4.86,4.42,2.89,2.69,6.88,6.36,10.66,10.19,7.43,7.62,14.84,16,14.84,16h-34.79m49.05-14.54s-.8-.89-2.19-2.45c-1.35-1.55-3.5-3.75-6-6.32-5.08-5.15-11.57-11.78-18.72-17.9-3.5-3.07-7-6.05-10.26-8.76-3.36-2.7-6.57-5.11-9.28-7.14-5.43-4.06-9.02-6.57-9.02-6.57l34.1-6.97s2.38,1.91,5.95,4.78c3.55,2.91,8.39,6.9,13.09,11.1,4.58,4.2,9.18,8.59,12.62,11.97,1.72,1.71,3.15,3.13,4.15,4.12.96,1.01,1.51,1.59,1.51,1.59,2.64,2.79,3.02,7.76.84,10.94,0,0-1.97,2.85-3.94,5.7-.96,1.41-2.07,2.81-2.84,3.85-.79,1.04-1.31,1.73-1.31,1.73-2.32,3.05-6.21,3.13-8.69.34Zm-98.29,14.54h-34.79s3.63-2.82,9.11-7.45c5.64-4.64,12.46-11.15,19.43-18.33,3.42-3.57,6.61-7.26,9.71-10.85,1.53-1.82,3.01-3.58,4.42-5.25,1.38-1.69,2.58-3.3,3.75-4.81,4.6-6.05,7.62-10.35,7.62-10.35,1.95-2.74,5.76-3.57,8.53-1.69l5.04,3.46c2.53,1.79,5.06,3.58,5.06,3.58,1.4,1.01,2.28,2.5,2.56,4.09.23,1.6-.18,3.29-1.21,4.67m-78.65,3.77c-2.7-1.4-3.2-4.24-1.15-6.52l1.06-1.18,34.1-6.97s-3.86,4.99-7.76,9.66c-1.96,2.35-3.87,4.62-5.4,6.31-1.55,1.68-2.59,2.8-2.59,2.8-2.14,2.29-6,2.76-8.62,1.21,0,0-.59-.35-1.48-.87-.9-.52-2.02-1.21-3.28-1.87-2.45-1.29-4.9-2.59-4.9-2.59Z"/>
           </svg>
-        <div class="container">
-            <ul class="aboutme">
-                <li>
+        <div class="container-fluid" style="padding-top: 3%;padding-left: 2%; padding-right:2%;">
+            <div class="row">
+                <div class="col-md-3">
                     <h2>Kyla McCallum</h2>
                     <p>is a student of New Media and Digital Design in NYC. She has two years of experience in graphic design, communications, and community engagement. She is currently the graphic design intern for a nonprofit nature magazine named <i>Orion</i> and the Community Engagement Advisor for an independent boutique in West Michigan. When not tinkering away in Adobe Illustrator, Kyla is probably reading.</p>
                     <p><a href="resume_git.pdf" target="_blank" alt="Resume">Resume</a></p>
                     <p><a href="https://www.instagram.com/theantsyreader/" target="_blank" alt="My instagram profile">Instagram</a></p>
-                </li>
-            </ul>
-            <ul class="section1">
-                <li><h3>Illustration</h3></li>
-                
-                <!-- Book Cover Redesign -->
-                <a href="/photos/BookFull.jpg" target="_blank"><img src="/photos/BookCover.jpg" alt="" style="width:100%"/></a>
-                <p class=bookcover>The final assignment of Kyla’s Graphic Design and Digital Tools class was to redesign a book cover of her choice. Kyla decided to redesign The Winter of the Witch by Katherine Arden. She created this cover in Adobe Illustrator using a Wacom tablet to add texture. The typography of the title and the author’s name was created from scratch using her hand lettering skills.</p>
-                
-                <!-- Alexandra Bryne Illustration -->
-                <div class="Alexandra">
-                    <a href="https://kamccallum.github.io/AlexandraByrne.html" target="_blank"><img src="/photos/AlexandraByrne.png" alt="" style="width:100%; padding-top:5%; padding-bottom: 5%; border-top:solid 1px" class="AlexandraImage"/></a>
-                    <p >The graphic above was an assignment for Kyla's Graphic Design and Digital Tools class. Each tile was created in Adobe Illustrator to admire the work of costume designer Alexandra Byrne.</p>
+                    <p>Click on an image to learn more ></p>
                 </div>
+                <div class="col-md-3">
+                    <h3>Illustration</h3>
+                    
+                    <!-- Book Cover Redesign -->
+                    <img src="/photos/BookFull.jpg" data-bs-toggle="modal" data-bs-target="#exampleModal" style="width:100%;padding-bottom: 5%;"/>
+                    <!--<p class=bookcover>The final assignment of Kyla’s Graphic Design and Digital Tools class was to redesign a book cover of 
+                        her choice. Kyla decided to redesign The Winter of the Witch by Katherine Arden. She created this cover in Adobe 
+                        Illustrator using a Wacom tablet to add texture. The typography of the title and the author’s name was created from 
+                        scratch using her hand lettering skills.</p>-->
+                    <!-- Button trigger modal -->
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Book Cover Redesign</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>bluh</p>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Alexandra Bryne Illustration -->
+                    <a href="/photos/AlexandraFull.png" target="_blank"><img src="/photos/AlexandraFull.png" alt="" style="width:100%; padding-top:5%; padding-bottom: 5%; border-top:solid 1px" class="AlexandraImage"/></a>
+                    <!--<p >The graphic above was an assignment for Kyla's Graphic Design and Digital Tools class. Each tile was created in 
+                        Adobe Illustrator to admire the work of costume designer Alexandra Byrne.</p>-->
+                    
+                    <!-- Orion Editorial Illustration 
+                    <a href="/photos/orionillustration.png" target="_blank"><img src="/photos/orionillustration.png" alt="" style="width:100%; padding-top:5%; border-top:solid 1px" /></a>
+                    <p>This editorial illustration is for the online article, <i><a href="https://orionmagazine.org/article/nature-writing-climate-disasters/" target="_blank">
+                        Nature Writer's to the Rescue!</a></i> published by <i>Orion</i> magazine. The article is about a forest fire that burns a young girl's 
+                        home. Kyla references this forest fire with the red/orange background, which she created using a Wacom tablet.</p>-->
+                    
+                    <a href="/photos/OrionFlyer.png" target="_blank"><img src="/photos/OrionFlyer.png" style="width:100%; padding-top:5%; padding-bottom: 5%;border-top:solid 1px"></a>
+                    <!--<p>Kyla illustrated the bird in the flyer above to advertise an event for Orion Magazine.</p>-->
+                </div>
+                <div class="col-md-3">
+                    <h3>Graphic Design</h3>
+                    
+                    <!-- Holland Museum Exhibit -->
+                    <a href="/photos/Greetings_FB.png" target="_blank"><img src="/photos/Greetings_FB.png" alt="" style="width:100%; padding-bottom: 5%;"/></a>
+                    <!--<p>This graphic was completed for a summer internship in the communications department of the Holland Museum. Interns across
+                        all departments of the museum collaborated to plan a small exhibition in the front lobby of the Museum; this graphic is
+                        marketing the opening of the exhibit, titled <i>Greetings from Holland, Michigan: Origins and Impact of the Local Post
+                        Office</i>. All design work displayed here was created independently by Kyla.</p>-->
+                    
+                    <!-- GMHC Women's Services -->
+                    <a href="/photos/gmhc.png" target="_blank"><img src="/photos/gmhc.png" alt="" style="width:100%; padding-top:5%; padding-bottom: 5%; border-top:solid 1px" /></a>
+                    <!--<p> This graphic was for the Gay Men’s Health Center (GMHC). Kyla worked with the director of Women’s Services to create a 
+                        tag line and an accompanying visual. The design process started with sketches of the four women on paper, which then led 
+                        to Adobe Illustrator for digitally rendering the women and Adobe InDesign for the graphic's layout.</p>-->
+                    
+                    <!-- Ecco Giveaway 
+                    <a href="/photos/Ecco.png" target="_blank"><img src="/photos/Ecco.png" alt="" style="width:100%; padding-top:5%; border-top:solid 1px" /></a>
+                    <p>Kyla designed this graphic for a book giveaway by Orion Magazine. The book, <i>When The Heavens Went On Sale</i>, inspired the circular 
+                        elements of this design, which look vaguely technological in order to subtly reference the author's discussion of space travel.</p>-->
                 
-                <!-- Orion Editorial Illustration 
-                <a href="/photos/orionillustration.png" target="_blank"><img src="/photos/orionillustration.png" alt="" style="width:100%; padding-top:5%; border-top:solid 1px" /></a>
-                <p>This editorial illustration is for the online article, <i><a href="https://orionmagazine.org/article/nature-writing-climate-disasters/" target="_blank">Nature Writer's to the Rescue!</a></i> published by <i>Orion</i> magazine. The article is about a forest fire that burns a young girl's home. Kyla references this forest fire with the red/orange background, which she created using a Wacom tablet.</p>-->
-                
-                <a href="/photos/OrionFlyer.png" target="_blank"><img src="/photos/OrionFlyer.png" style="width:100%; padding-top:5%; border-top:solid 1px"></a>
-                <p>Kyla illustrated the bird in the flyer above to advertise an event for Orion Magazine.</p>
-            </ul>
-            <ul class="section2">
-                <li><h3>Graphic Design</h3></li>
-                
-                <!-- Holland Museum Exhibit -->
-                <a href="/photos/Greetings_FB.png" target="_blank"><img src="/photos/Greetings_FB.png" alt="" style="width:100%"/></a>
-                <p>This graphic was completed for a summer internship in the communications department of the Holland Museum. Interns across all departments of the museum collaborated to plan a small exhibition in the front lobby of the Museum; this graphic is marketing the opening of the exhibit, titled <i>Greetings from Holland, Michigan: Origins and Impact of the Local Post Office</i>. All design work displayed here was created independently by Kyla.</p>
-                
-                <!-- GMHC Women's Services -->
-                <a href="/photos/gmhc.png" target="_blank"><img src="/photos/gmhc.png" alt="" style="width:100%; padding-top:5%; border-top:solid 1px" /></a>
-                <p> This graphic was for the Gay Men’s Health Center (GMHC). Kyla worked with the director of Women’s Services to create a tag line and an accompanying visual. The design process started with sketches of the four women on paper, which then led to Adobe Illustrator for digitally rendering the women and Adobe InDesign for the graphic's layout.</p>
-                
-                <!-- Ecco Giveaway 
-                <a href="/photos/Ecco.png" target="_blank"><img src="/photos/Ecco.png" alt="" style="width:100%; padding-top:5%; border-top:solid 1px" /></a>
-                <p>Kyla designed this graphic for a book giveaway by Orion Magazine. The book, <i>When The Heavens Went On Sale</i>, inspired the circular elements of this design, which look vaguely technological in order to subtly reference the author's discussion of space travel.</p>-->
-            
-                <a href="/photos/midwest.jpg" target="_blank"><img src="/photos/midwest.jpg" style="width:100%; padding-top:5%; border-top:solid 1px"/></a>
-                <p>This unisex graphic t-shirt was designed in Adobe illustrator and is sold by Frances Jaye, a boutique in downtown Holland, Michigan.</p>
-            </ul>
-            <ul class="section3">
-                <li><h3>Layout & Data Visualization</h3></li>
-                
-                <!-- Observer Layouts -->
-                <a href="/photos/Observer1Full.png" target="_blank"><img src="/photos/Observer1.png" alt="" style="width:100%; padding-bottom:5%"/></a>
-                <a href="/photos/Observer2Full.png" target="_blank"><img src="/photos/Observer2.png" alt="" style="width:100%; padding-top:2%; border-top:solid 1px"/></a>
-                <p><i>The Observer</i> is Fordham Lincoln Center’s online and print newspaper, publishing biweekly. As the Assistant Layout Editor, Kyla was responsible for print layout. She primarily worked on the Fun & Games section of the newspaper, embracing fun graphics and bright color palettes. Above are two of her favorite layouts from her time on <i>The Observer</i> editorial board.</p>
-                
-                <!-- GMHC Data Visualizations -->
-                <a href="/photos/gmhc_flyer.png" target="_blank"><img src="/photos/gmhc_flyerHalf.png" alt="" style="width:100%; padding-top:2%; border-top:solid 1px"/></a>
-                <p>These data visualizations were created for the Gay Men's Health Center to share data about the demographics and needs of their clients. Kyla developed the pie charts in RawGraphs using aggregated data, then improved their design in Adobe Illustrator. </p>
-            </ul>
+                    <a href="/photos/midwest.jpg" target="_blank"><img src="/photos/midwest.jpg" style="width:100%; padding-top:5%; padding-bottom: 5%; border-top:solid 1px"/></a>
+                    <!--<p>This unisex graphic t-shirt was designed in Adobe illustrator and is sold by Frances Jaye, a boutique in downtown Holland,
+                         Michigan.</p>-->
+                    </div>
+                <div class="col-md-3">
+                    <h3>Layout & Data Visualization</h3>
+                    
+                    <!-- Observer Layouts -->
+                    <a href="/photos/Observer1Full.png" target="_blank"><img src="/photos/Observer1.png" alt="" style="width:100%; padding-bottom:5%"/></a>
+                    <a href="/photos/Observer2Full.png" target="_blank"><img src="/photos/Observer2.png" alt="" style="width:100%; padding-bottom:5%; padding-top:2%; border-top:solid 1px"/></a>
+                    <!--<p><i>The Observer</i> is Fordham Lincoln Center’s online and print newspaper, publishing biweekly. As the Assistant Layout Editor, 
+                        Kyla was responsible for print layout. She primarily worked on the Fun & Games section of the newspaper, embracing fun graphics 
+                        and bright color palettes. Above are two of her favorite layouts from her time on <i>The Observer</i> editorial board.</p>-->
+                    
+                    <!-- GMHC Data Visualizations -->
+                    <a href="/photos/gmhc_flyer.png" target="_blank"><img src="/photos/gmhc_flyerHalf.png" alt="" style="width:100%; padding-top:2%; padding-bottom:5%; border-top:solid 1px"/></a>
+                    <!--<p>These data visualizations were created for the Gay Men's Health Center to share data about the demographics and needs of their clients. 
+                        Kyla developed the pie charts in RawGraphs using aggregated data, then improved their design in Adobe Illustrator. </p>-->
+                </div>
+            </div>
         </div>
         <hr>
         <p class="rights" style="text-align: center">Website design and code created by Kyla, using <a href="https://handmade-web.net/index.html" target="_blank">handmade web</a> principles.</p>
