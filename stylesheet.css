@@ -37,6 +37,9 @@ a {
     #Capa_1 {
         visibility: hidden;
     }
+    #learn {
+      visibility: hidden;
+    }
 }
 #Capa_1 {
     width:500px;
