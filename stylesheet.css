@@ -5,24 +5,33 @@ h1 {
   color: #333333;
 }
 h2 {
-  font-family:monaco;
-  font-size: 20px;
-  font-weight: bold;
-  color: #72495F;
+  font-family:verdana;
+  font-size: 40px;
+  letter-spacing: 5px;
+  color: #aaaf74;
 }
 h3 {
-    font-family:monaco;
-    font-size: 14px;
-    font-weight: bold;
-    color: #333333;
+  font-family:verdana;
+  font-size: 15px;
+  letter-spacing: 5px;
+  color: white;
+}
+h4 {
+  font-family:verdana;
+  font-size: 20px;
+  letter-spacing: 5px;
+  color: #aaaf74;
 }
 p {
   font-family:monaco;
   font-size: 12px;
-  color: #333333;
+  color: white;
+}
+.header p{
+  color: white;
 }
 a {
-  color: #72495F;
+  color: #aaaf74;
 }
 .section1 p {
     font-size: 11px;
@@ -32,14 +41,6 @@ a {
 }
 .section3 p {
     font-size: 11px;
-}
-@media (max-width: 800px) {
-    #Capa_1 {
-        visibility: hidden;
-    }
-    #learn {
-      visibility: hidden;
-    }
 }
 #Capa_1 {
     width:500px;
@@ -73,4 +74,138 @@ a {
 }
 img:hover {
     cursor: pointer;
+}
+.scroll {
+  overflow: auto;
+  white-space: nowrap;
+  margin-right: 20px;
+}
+
+.header {
+  background-color: black;
+  border-bottom: solid 1px;
+  border-color: white;
+  padding-left: 5%;
+  padding-right:5%;
+  padding-top: 2%;
+}
+#launch img {
+  width:100%;
+}
+.rights {
+  text-align: center;
+  border-top: solid 1px;
+  border-color: white;
+  padding-top: 2%;
+}
+#home-content {
+  padding-top: 12%;
+  padding-left: 5%; 
+  padding-right:5%;
+}
+#page-content {
+  padding-top: 9%;
+  padding-left: 5%; 
+  padding-right:5%;
+}
+.observer {
+  padding-top: 12%;
+  padding-left: 5%; 
+  padding-right:5%;
+}
+@media (min-width: 1200px) {
+  .desc {
+    display: none;
+  }
+  .small-bio {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  #home-content {
+    padding-top:15%;
+  }
+  #page-content {
+    padding-top:10%;
+  }
+  .observer {
+    padding-top:10%;
+  }
+  .desc {
+    display: none;
+  }
+  .bio {
+    display:none;
+  }
+  .desc {
+    display: inline;
+  }
+  .small-bio {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  #home-content {
+    padding-top:10%;
+  }
+  #name {
+    padding-bottom:3%;
+  }
+  #page-content {
+    padding-top:12%;
+  }
+  .home-bio {
+    display:none;
+  }
+  .small-bio {
+    display: inline;
+  }
+  .observer {
+    padding-top:10%;
+  }
+  #gessner-contact {
+    display:none;
+  }
+  #launch-ig {
+    display: none;
+  }
+  #launch img {
+    width: 70%;
+  }
+}
+@media (max-width: 768px) {
+  #Capa_1 {
+      visibility: hidden;
+  }
+  #learn {
+    visibility: hidden;
+  }
+  .scroll img {
+    width: 100%;
+  }
+  #home-content {
+    padding-top:15%;
+  }
+  #page-content {
+    padding-top:11%;
+  }
+  .observer {
+    padding-top:15%;
+  }
+}
+@media (max-width: 576px) {
+  #home-content {
+    padding-top:16%;
+  }
+  #page-content {
+    padding-top:17%;
+  }
+  .observer {
+    padding-top:15%;
+  }
+}
+.modal-title {
+  font-family: verdana;
+  font-weight: normal;
+  letter-spacing: 3px;
 }
