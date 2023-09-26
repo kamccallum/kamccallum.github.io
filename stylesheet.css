@@ -4,6 +4,12 @@ h2 {
   letter-spacing: 5px;
   color: #aaaf74;
 }
+.name {
+  font-family:verdana;
+  font-size: 40px;
+  letter-spacing: 5px;
+  color: #aaaf74;
+}
 h3 {
   font-family:verdana;
   font-size: 15px;
@@ -15,6 +21,12 @@ h4 {
   font-size: 20px;
   letter-spacing: 5px;
   color: #aaaf74;
+}
+h5 {
+  font-family:verdana;
+  font-size: 20px;
+  letter-spacing: 5px;
+  color: white;
 }
 p {
   font-family:monaco;
@@ -39,27 +51,6 @@ a {
 .section3 p {
     font-size: 11px;
 }
-#Capa_1 {
-    width:500px;
-    position: absolute;
-    z-index: -10;
-    top:50%;
-    left: 5%;
-    opacity: 60%;
-    animation: spin infinite 10s 
-}
-@keyframes spin {
-    0% {
-      transform: rotate(0deg);
-      transform-origin: center;
-      transform-box: fill-box;
-    }
-    100% {
-      transform: rotate(360deg);
-      transform-origin: center;
-      transform-box: fill-box;
-    }
-  }
 .btn {
     background-color: transparent;
     color: #333333;
@@ -86,6 +77,31 @@ img:hover {
   padding-right:5%;
   padding-top: 2%;
 }
+.navbar {
+  margin-top: -10px;
+  border-left: 20px;
+  float: right;
+  color: black;
+}
+.offcanvas-header {
+  background-color: black;
+  border-left: 2px solid white;
+}
+.offcanvas-header h5 {
+  margin-left: 15px;
+}
+.offcanvas-body {
+  background-color: black;
+  border-left: 2px solid white;
+}
+.offcanvas-body li {
+  margin-left: 20px;
+}
+.navbar a {
+  font-family:monaco;
+  font-size: 14px;
+  color: white;
+}
 #launch img {
   width:100%;
 }
@@ -99,6 +115,9 @@ img:hover {
   padding-top: 12%;
   padding-left: 5%; 
   padding-right:5%;
+}
+#blog {
+  padding-top: 12%;
 }
 #page-content {
   padding-top: 9%;
