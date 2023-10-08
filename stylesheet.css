@@ -2,45 +2,46 @@ h2 {
   font-family:verdana;
   font-size: 40px;
   letter-spacing: 5px;
-  color: #aaaf74;
+  color: black;
 }
 .name {
   font-family:verdana;
   font-size: 40px;
   letter-spacing: 5px;
-  color: #aaaf74;
+  color: black;
 }
 h3 {
   font-family:verdana;
   font-size: 15px;
   letter-spacing: 5px;
-  color: white;
+  color: black;
 }
 h4 {
   font-family:verdana;
   font-size: 20px;
   letter-spacing: 5px;
-  color: #aaaf74;
+  color: black;
 }
 h5 {
   font-family:verdana;
   font-size: 20px;
   letter-spacing: 5px;
-  color: white;
+  color: black;
 }
 p {
   font-family:monaco;
   font-size: 12px;
-  color: white;
+  color: black;
 }
 #header {
   position: fixed;
 }
 .header p{
-  color: white;
+  color: black;
 }
 a {
-  color: #aaaf74;
+  color: black;
+  text-decoration: none;
 }
 .section1 p {
     font-size: 11px;
@@ -68,156 +69,92 @@ img:hover {
   white-space: nowrap;
   margin-right: 20px;
 }
-
 .header {
-  background-color: black;
-  border-bottom: solid 1px;
-  border-color: white;
-  padding-left: 5%;
-  padding-right:5%;
-  padding-top: 2%;
-}
-.navbar {
-  margin-top: -10px;
-  border-left: 20px;
-  float: right;
-  color: black;
-}
-.offcanvas-header {
-  background-color: black;
-  border-left: 2px solid white;
-}
-.offcanvas-header h5 {
-  margin-left: 15px;
-}
-.offcanvas-body {
-  background-color: black;
-  border-left: 2px solid white;
-}
-.offcanvas-body li {
-  margin-left: 20px;
-}
-.navbar a {
-  font-family:monaco;
-  font-size: 14px;
-  color: white;
-}
-#launch img {
-  width:100%;
-}
-.rights {
-  text-align: center;
+  background-color: white;
   border-top: solid 1px;
-  border-color: white;
-  padding-top: 2%;
-}
-#home-content {
-  padding-top: 12%;
-  padding-left: 5%; 
-  padding-right:5%;
+  border-color: black;
+  padding-left: 1%;
+  padding-right:1%;
+  padding-top: 1%;
 }
 #blog {
   padding-top: 12%;
 }
 #page-content {
-  padding-top: 9%;
-  padding-left: 5%; 
-  padding-right:5%;
+  padding-top: 1%;
+  padding-left: 1%; 
+  padding-right:1%;
 }
 .observer {
-  padding-top: 12%;
-  padding-left: 5%; 
-  padding-right:5%;
+  padding-top: 2%;
+  padding-left: 1%; 
+  padding-right:1%;
 }
 @media (min-width: 1200px) {
-  .desc {
+  #small-footer {
     display: none;
-  }
-  .small-bio {
-    display: none;
-  }
-}
-@media (max-width: 1200px) {
-  #home-content {
-    padding-top:15%;
-  }
-  #page-content {
-    padding-top:10%;
-  }
-  .observer {
-    padding-top:10%;
-  }
-  .desc {
-    display: none;
-  }
-  .bio {
-    display:none;
-  }
-  .desc {
-    display: inline;
-  }
-  .small-bio {
-    display: none;
-  }
-}
-@media (max-width: 992px) {
-  #home-content {
-    padding-top:10%;
-  }
-  #name {
-    padding-bottom:3%;
-  }
-  #page-content {
-    padding-top:12%;
-  }
-  .home-bio {
-    display:none;
-  }
-  .small-bio {
-    display: inline;
-  }
-  .observer {
-    padding-top:10%;
-  }
-  #gessner-contact {
-    display:none;
   }
   #launch-ig {
     display: none;
   }
-  #launch img {
-    width: 70%;
+}
+@media (max-width: 1200px) {
+  #small-footer {
+    display: none;
+  }
+  #launch-ig {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  #big-name {
+    display: none;
+  }
+  #big-footer {
+    display: none;
+  }
+  #small-footer {
+    display: inline;
+  }
+  #launch-ig {
+    display: none;
   }
 }
 @media (max-width: 768px) {
-  #Capa_1 {
-      visibility: hidden;
+  #big-name {
+    display: none;
   }
-  #learn {
-    visibility: hidden;
+  #big-footer {
+    display: none;
   }
-  .scroll img {
-    width: 100%;
+  #small-footer {
+    display: inline;
   }
-  #home-content {
-    padding-top:15%;
+  #launch-ig {
+    display: none;
   }
-  #page-content {
-    padding-top:11%;
-  }
-  .observer {
-    padding-top:15%;
+  #year {
+    display: none;
   }
 }
 @media (max-width: 576px) {
-  #home-content {
-    padding-top:16%;
+  #big-name {
+    display: none;
   }
-  #page-content {
-    padding-top:17%;
+  #big-footer {
+    display: none;
   }
-  .observer {
-    padding-top:15%;
+  #small-footer {
+    display: inline;
+  }
+  #full-screen {
+    display: none;
+  }
+  #launch-ig {
+    display: inline;
+  }
+  #year {
+    display: none;
   }
 }
 .modal-title {

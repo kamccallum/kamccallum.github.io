@@ -11,79 +11,29 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
     </head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <body style="background-color: black;">
-          <div class="header fixed-top">
-            <div class="container-fluid">
-                <div class="row justify-content-between">
-                    <div class="col-3">
-                        <h2 class="item" id="name">KYLA</h2>
-                      </div>
-                    <div class="col home-bio">
-                        <p class="item">Graphic designer and illustrator. Former design intern for <i>Orion</i> magazine and the Gay Men's Health Center in NYC. 
-                            When not tinkering away in Adobe Illustrator, Kyla is probably reading.</p>
-                    </div>
-                    <div class="col-2">
-                        <nav class="navbar navbar-dark">
-                            <div class="container-fluid">
-                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-                                <div class="offcanvas-header">
-                                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">OTHER LINKS</h5>
-                                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                                </div>
-                                <div class="offcanvas-body">
-                                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                                    <li class="nav-item">
-                                      <a class="nav-link" href="https://www.instagram.com/designbykyla/" target="_blank" alt="My instagram profile"">Instagram</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="https://www.linkedin.com/in/kyla-mccallum-b8b133196/" target="_blank" alt="My LinkedIn profile">LinkedIn</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="/photos/Web Resume.pdf" target="_blank">Resume</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="mailto:ky.mccall307@gmail.com" target="_blank">Contact Me</a>
-                                      </li>
-                                  </ul>
-                                </div>
-                              </div>                          
-                            </div>
-                        </nav>                        
-                        <!--<p><a href="mailto:ky.mccall307@gmail.com" target="_blank">Contact</a></p>
-                        <p><a href="https://www.instagram.com/designbykyla/" target="_blank" alt="My instagram profile">Instagram</a></p> -->
-                    </div>
-                </div>
-             </div>
-        </div>
-        <div id="home-content" class="container-fluid">
-            <div class="row small-bio">
-                <p>Graphic designer and illustrator. Former design intern for <i>Orion</i> magazine and the Gay Men's Health Center in NYC. 
-                    When not tinkering away in Adobe Illustrator, Kyla is probably reading.</p>
-            </div>
+    <body style="background-color: white;">
+        <div id="page-content" class="container-fluid">
             <div class="row justify-content-between">
                 <div class="col-md-4">
                     <a href="tshirt.html"><img src="/photos/tshirt.jpeg" style="width:100%; padding-bottom: 3%;"/></a>
-                    <h3 style="padding-bottom: 10%;">MIDWEST LOCALES T-SHIRT</h3>
+                    <h3 style="padding-bottom: 10%;">MIDWEST T-SHIRT</h3>
                 </div>
                 <div class="col-md-7">
                     <a href="gessner.html"><img src="/photos/gessner5.png" style="width:100%;padding-bottom: 2%;"/></a>
-                    <h3 style="padding-bottom: 10%;">GESSNER EDITORIAL ILLUSTRATIONS</h3>
+                    <h3 style="padding-bottom: 10%;">ORION EDITORIAL ILLUSTRATIONS</h3>
                 </div>
             </div>
-            <div class="row justify-content-between">
+            <div class="row justify-content-between" style="margin-top:-2%">
                 <div class="col-md-7">
                     <a href="ursula.html"><img src="/photos/ursula.jpg" style="width:100%;padding-bottom: 3%;"/></a>
                     <h3 style="padding-bottom: 10%;">Q&A EDITORIAL ILLUSTRATION</h3>
                 </div>
                 <div class="col-md-4">
-                    <a href="byrne.html"><img src="/photos/AlexandraByrne.png" style="width:100%;padding-bottom: 5%;"/></a>
+                    <a href="byrne.html"><img src="/photos/AlexandraByrne.png" style="width:100%;padding-bottom: 3%;"/></a>
                     <h3 style="padding-bottom: 10%;">ALEXANDRA BYRNE</h3>
                 </div>
             </div>
-            <div class="row justify-content-between">
+            <div class="row justify-content-between" style="margin-top:-2%">
                 <div class="col-md-4">
                     <a href="observer.html"><img src="/photos/Observer2.jpg" style="width:100%; padding-bottom: 3%;"/></a>
                     <h3 style="padding-bottom: 10%;">THE OBSERVER</h3>
@@ -93,7 +43,7 @@
                     <h3 style="padding-bottom: 10%;">ORION LAUNCH</h3>
                 </div>
             </div>
-            <div class="row justify-content-between">
+            <div class="row justify-content-between" style="margin-top:-2%">
                 <div class="col-md-7">
                     <a href="postcard.html"><img src="/photos/postcard1.png" style="width:100%;padding-bottom: 3%;"/></a>
                     <h3 style="padding-bottom: 10%;">HOLLAND POSTCARD</h3>
@@ -104,8 +54,25 @@
                 </div>
             </div>
         </div>
-        <hr>
-        <p class="rights" style="color:white">Website design by Kyla.</p>
+        <div class="header fixed-bottom">
+            <div class="container-fluid">
+                <div class="row justify-content-between">
+                    <div class="col-3">
+                        <a href="index.html"><h2 class="item" id="big-name">KYLA</h2></a>
+                    </div>
+                    <div class="col-6" id="big-footer">
+                        <p class="item">Student, Master of Library and Information Science (MLIS)<br/>Graphic Designer and Illustrator<br/>Get in touch: ky.mccall307@gmail.com</p>
+                    </div>
+                    <div class="col-10" id="small-footer">
+                        <p class="item">Kyla McCallum<br/>MLIS Student, Graphic Designer & Illustrator<br/>Get in touch: ky.mccall307@gmail.com</p>
+                    </div>
+                    <div class="col-2">
+                        <p><a href="index.html">~ View</a><br/><a href="list.html">~ List</a><br/><a href="mlis.html">~ MLIS</a></p>
+                      </div>
+                </div>
+             </div>
+        </div>
+        <br>
         <br>
     </body>
 </html>
