@@ -71,7 +71,6 @@ img:hover {
 }
 .header {
   background-color: white;
-  border-top: 1px solid;
   box-shadow: 0 0 20px 5px rgba(0,0,0,0.5);
   padding-left: 1%;
   padding-right:1%;
