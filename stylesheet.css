@@ -94,6 +94,9 @@ img:hover {
   #small-footer {
     display: none;
   }
+  #smallClassification{
+    display: none;
+  }
   #launch-ig {
     display: none;
   }
@@ -103,6 +106,9 @@ img:hover {
     display: none;
   }
   #launch-ig {
+    display: none;
+  }
+  #smallClassification{
     display: none;
   }
 }
@@ -118,6 +124,12 @@ img:hover {
   }
   #launch-ig {
     display: none;
+  }
+  #classificationImages {
+    display:none;
+  }
+  #smallClassification{
+    display:flex ;
   }
 }
 @media (max-width: 768px) {
@@ -135,6 +147,9 @@ img:hover {
   }
   #year {
     display: none;
+  }
+  #smallClassification{
+    display:flex ;
   }
 }
 @media (max-width: 576px) {
@@ -155,6 +170,9 @@ img:hover {
   }
   #year {
     display: none;
+  }
+  #smallClassification{
+    display:flex ;
   }
 }
 .modal-title {
