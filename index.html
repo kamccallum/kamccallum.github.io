@@ -9,27 +9,28 @@
         <link rel="stylesheet" href="stylesheet.css">
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
     </head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <body style="background-color: white;">
         <div id="page-content" class="container-fluid">
             <div class="row justify-content-between">
                 <div class="col-md-4">
-                    <a href="tshirt.html"><img src="/photos/tshirt.jpeg" style="width:100%; padding-bottom: 3%;"/></a>
+                    <a href="tshirt.html"><img class="lazyload" data-src="/photos/tshirt.jpeg" style="width:100%; padding-bottom: 3%;" width="800" height="500"/></a>
                     <h3 style="padding-bottom: 10%;">MIDWEST T-SHIRT</h3>
                 </div>
                 <div class="col-md-7">
-                    <a href="gessner.html"><img src="/photos/gessner5.png" style="width:100%;padding-bottom: 2%;"/></a>
+                    <a href="gessner.html"><img class="lazyload" data-src="/photos/gessner5.png" style="width:100%;padding-bottom: 2%;" width="800" height="500"/></a>
                     <h3 style="padding-bottom: 10%;">ORION EDITORIAL ILLUSTRATIONS</h3>
                 </div>
             </div>
             <div class="row justify-content-between" style="margin-top:-2%">
                 <div class="col-md-7">
-                    <a href="ursula.html"><img src="/photos/ursula.jpg" style="width:100%;padding-bottom: 3%;"/></a>
+                    <a href="ursula.html"><img class="lazyload" data-src="/photos/ursula.jpg" style="width:100%;padding-bottom: 3%;" width="800" height="500" /></a>
                     <h3 style="padding-bottom: 10%;">Q&A EDITORIAL ILLUSTRATION</h3>
                 </div>
                 <div class="col-md-4">
-                    <a href="byrne.html"><img src="/photos/AlexandraByrne.png" style="width:100%;padding-bottom: 3%;"/></a>
+                    <a href="byrne.html"><img class="lazyload" data-src="/photos/AlexandraByrne.png" style="width:100%;padding-bottom: 3%;" width="800" height="500"/></a>
                     <h3 style="padding-bottom: 10%;">ALEXANDRA BYRNE</h3>
                 </div>
             </div>
@@ -75,9 +76,7 @@
         <br>
         <br>
         <script>
-        $(window).load(function() {
-            $('#loading').hide();
-        });
+        lazyload();
         </script>
     </body>
 </html>
