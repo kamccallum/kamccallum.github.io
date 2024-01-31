@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stylesheet.css">
+        <title> Kyla's Portfolio </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <link rel="stylesheet" href="stylesheet.css">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <body style="background-color: white;">
+        <div id="page-content" class="container-fluid" style="padding-left: 3%; padding-right: 3%">
+            <a href="mlis.html"><p>< back</p></a>
+            <div class="row">
+                <h2 style="text-align: center;">BIBFRAME</h2>
+            </div>
+            <div class="row justify-content-around" style="padding-top: 2%">
+                <div class="col-lg-7">
+                    <div style="border: 1px solid black;">
+                        <p style="margin: 2%;"><b>Quick Description</b></p>
+                        <ul style="margin: 2%;">
+                            <li>
+                                <p>BIBFRAME is a data format introduced by the Library of Congress to enable linked data.</p>
+                            </li>
+                            <li>
+                                <p>The library community does not agree on whether BIBFRAME improves upon the long-standing data format MARC.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <br>
+                </div>
+            </div>
+            <div class="row justify-content-around">
+                <div class="col-lg-10">
+                    <p>
+                        BIBFRAME stands for bibliographic framework, and it is a data format for bibliographic description originally released by the Library of Congress in 2012 (Steele, 2019). A group within the Library of Congress is currently working on this initiative, although BIBFRAME is still in its early stages of development. The Library of Congress says “BIBFRAME is far from an environment that you could move to yet” (n.d., question 9). They are accepting public feedback via the listserv. 
+                    </p>
+                    <P>
+                        The first BIBFRAME iteration consisted of four classes: Creative Work, Instance, Authority, and Annotation. This version was replaced in 2016 with BIBFRAME 2.0, which consists of three classes: Work, Instance, and Item. These three classes more closely reflect the hierarchical, entity-relationship based FRBR model (i.e. Work, Expression, Manifestation, and Item), although BIBFRAME combines Expression and Manifestation into Instance. A BIBFRAME Work is the “conceptual essence of something,” a BIBFRAME Instance is the “material embodiment of a Work,” and a BIBFRAME Item is an “actual copy (physical or electronic) of an Instance” (Library of Congress, n.d.). BIBFRAME can also be expressed through the Resource Description Framework (RDF) to enable linked data (Steele, 2019). RDF “can be described as the grammar rules for the language of data,” consisting of a triple statement made up of a subject, predicate, and object (Steele, 2019, p. 515). For example, The Priory of the Orange Tree (subject) is written by (predicate) Samantha Shannon (object). Each of these components is assigned a Uniform Resource Identifier (URI), so that materials are linked together. The predicate “would have a URI for the relationship’s term,” such as author or composer (Steele, 2019, p. 515). BIBFRAME’s inclusion of linked data and RDF facilitates three-dimensional data sharing both within and outside of the library community.
+                    </P>
+                    <hr>
+                    <a href="/photos/BIBFRAME.png" target="_blank"><img src="/photos/BIBFRAME.png" style="width:100%"></a>
+                    <P>MARC vs BIBFRAME comparison (Library of Congress, n.d.-a)</P>
+                    <hr>
+                    <p>
+                        However, the library community does not necessarily agree that BIBFRAME should replace MARC, at least in part because MARC is so intertwined with the content standards that are applied to it (Park et al., 2019). Furthermore, not everyone believes that BIBFRAME would support widespread interoperability. Data on the web is captured through more than 100 different, substantial metadata standards, and BIBFRAME may not be able to interact with the expressions of this data. Because the main argument for BIBFRAME is that it would break library metadata out of its information silo, if interoperability is not supported, then there is little reason to transition from MARC. Park et al. (2019) also summarizes research on the applicability of BIBFRAME to serial publications, rare books/manuscripts, and audiovisual materials—three resource types that are historically difficult to describe with existing standards. While BIBFRAME “appears to provide a more suitable framework for their description,” a number of changes need to be made in order to enhance its extensibility (Park et al., 2019, p. 551). For example, BIBFRAME should “develop a mechanism for describing sequences,” which would help describe tracks on an album and chapters on a DVD (Park et al., 2019, p. 556). 
+                    </p>
+                    <p>
+                        Overall, I think that BIBFRAME is a very intriguing advancement. Currently, much of the information contained in a library catalog is represented as an entire record, so it’s difficult to discern relationships between individual facts. If we can assign URIs to the three RDF aspects (subject, predicate, and object), thereby enhancing metadata discoverability via the web, libraries would find new patrons.
+                    </p>
+                    <hr>
+                    <a href="/photos/bibframe2.png" target="_blank"><img src="/photos/bibframe2.png" style="width:100%"></a>
+                    <p>Effect of linked data (Frank et al., 2014)</p>
+                    <hr>
+                </div>
+            </div>
+            <div class="row justify-content-around" style="padding-top: 1%;">
+                <div class="col-lg-7">
+                    <div style="border: 1px solid black;">
+                        <p style="margin: 2%;"><b>Learning Outcomes</b></p>
+                        <p style="margin: 2%;">This assignment reminded me of the importance of visualizations. When I was attempting to understand BIBFRAME, I watched some videos and looked at comparison tools, but I did not originally include visuals in my assignment. I received several pieces of feedback as a result, urging me to give examples. I think the data format is much easier to understand now that I've provided screenshots.</p>
+                </div>
+                </div>
+            </div>
+            <div class="row justify-content-around" style="padding-top: 2%;">
+                <div class="col-lg-10">
+                    <p style="text-align: center;"><b>References</b></p>
+                    <p>Frank, P., Cannan, J., & Ford, K. (2014). <i>BIBFRAME: Why? What? Who?</i> Library of Congress. <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjjn4fgxI-DAxVokIkEHdz9B-cQFnoECBsQAQ&url=https%3A%2F%2Fwww.loc.gov%2Faba%2Fpcc%2Fbibframe%2FBIBFRAME%2520paper%252020140501.docx&usg=AOvVaw2Nmm18dA-L4MEA04L0XUUL&opi=89978449" target="_blank" style="text-decoration: underline;">https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjjn4fgxI-DAxVokIkEHdz9B-cQFnoECBsQAQ&url=https%3A%2F%2Fwww.loc.gov%2Faba%2Fpcc%2Fbibframe%2FBIBFRAME%2520paper%252020140501.docx&usg=AOvVaw2Nmm18dA-L4MEA04L0XUUL&opi=89978449</a>.</p>
+                    <p>Library of Congress. (n.d.). BIBFRAME Frequently Asked Questions. Retrieved November 15, 2023, from <a href="https://www.loc.gov/bibframe/faqs/" target="_blank" style="text-decoration: underline;">https://www.loc.gov/bibframe/faqs/</a>.</p>
+                    <p>Library of Congress. (n.d.-a). <i>Compare MARC converted to BIBFRAME (v2.4.0)</i>. Retrieved December 14, 2023, from <a href="https://id.loc.gov/tools/bibframe/compare-id/full-ttl" target="_blank" style="text-decoration: underline;">https://id.loc.gov/tools/bibframe/compare-id/full-ttl</a>.</p>
+                    <p>Park, J.-R., Richards, L. L., & Brenza, A. (2018). Benefits and challenges of BIBFRAME: Cataloging special format materials, implementation, and continuing educational resources. Library Hi Tech, 37(3), 549–565. <a href="https://doi.org/10.1108/LHT-08-2017-0176" target="_blank" style="text-decoration: underline;">https://doi.org/10.1108/LHT-08-2017-0176</a>.</p>
+                    <p>Steele, T. D. (2018). What comes next: Understanding BIBFRAME. Library Hi Tech, 37(3), 513–524. <a href="https://doi.org/10.1108/LHT-06-2018-0085" target="_blank" style="text-decoration: underline;">https://doi.org/10.1108/LHT-06-2018-0085</a>.</p>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="header fixed-bottom">
+            <div class="container-fluid">
+                <div class="row justify-content-between">
+                    <div class="col-lg-5" id="big-footer">
+                        <a href="index.html"><img src="/photos/header.png" style="width:100%; padding-bottom:2%"></a>
+                    </div>
+                    <!--<div class="col-6" id="big-footer">
+                        <p class="item" style="text-align: left;">Student, Master of Library and Information Science (MLIS)<br/>Graphic Designer and Illustrator<br/>Get in touch: ky.mccall307@gmail.com</p>
+                    </div>-->
+                    <div class="col-8" id="small-footer">
+                        <p class="item">Kyla McCallum<br/>MLIS Student & Artist<br/>Get in touch: ky.mccall307@gmail.com</p>
+                    </div>
+                    <div class="col-4" style="padding-bottom:1%; float:right" id="big-footer">
+                        <a href="index.html"><img src="photos/page-02.png" style="height:25px; float:right"></a>
+                        <a href="list.html"><img src="photos/page-03.png" style="height:25px; float:right"></a>
+                        <a href="mlis.html"><img src="photos/page-04.png" style="height:25px; float:right"></a>
+                    </div>
+                    <div class="col-4" style="padding-bottom:1%; float:right" id="small-footer">
+                        <a href="index.html"><img src="photos/page-02.png" style="height:20px; float:right"></a><br>
+                        <a href="list.html"><img src="photos/page-03.png" style="height:20px; float:right"></a><br>
+                        <a href="mlis.html"><img src="photos/page-04.png" style="height:20px; float:right"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+    </body>
+</html>

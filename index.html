@@ -3,7 +3,6 @@
     <head>
         <link rel="stylesheet" href="stylesheet.css">
         <title> Kyla's Portfolio </title>
-        <link rel="icon" type="image/x-icon" href="/photos/favicon.png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
         <link rel="stylesheet" href="stylesheet.css">
@@ -12,185 +11,246 @@
         <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
     </head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <body style="background-color: white;">
-        <div class="header fixed-bottom">
-            <div class="container-fluid">
+            <div id="page-content" class="container-fluid" style="padding-top: 2%;">
                 <div class="row justify-content-between">
-                    <div class="col-lg-5" id="big-footer">
-                        <a href="index.html"><img src="/photos/header.png" style="width:100%; padding-bottom:2%"></a>
+                    <div class="col-md-4" style="padding-left: 3%;">
+                        <h2>Kyla McCallum<br>
+                            Graphic Designer and Illustrator<br>
+                            <br>
+                            Student, Master of Library and Information Science<br>
+                            BA in New Media and Digital Design<br>
+                            <br>
+                            <a href = "mailto:ky.mccall307@gmail.com">ky.mccall307@gmail.com</a>
+                        </h2>
                     </div>
-                    <!--<div class="col-6" id="big-footer">
-                        <p class="item" style="text-align: left;">Student, Master of Library and Information Science (MLIS)<br/>Graphic Designer and Illustrator<br/>Get in touch: ky.mccall307@gmail.com</p>
-                    </div>-->
-                    <div class="col-8" id="small-footer">
-                        <p class="item">Kyla McCallum<br/>MLIS Student & Artist<br/>Get in touch: ky.mccall307@gmail.com</p>
-                    </div>
-                    <div class="col-4" style="padding-bottom:1%; float:right" id="big-footer">
-                        <a href="index.html"><img src="photos/page-02.png" style="height:25px; float:right"></a>
-                        <a href="list.html"><img src="photos/page-03.png" style="height:25px; float:right"></a>
-                        <a href="mlis.html"><img src="photos/page-04.png" style="height:25px; float:right"></a>
-                    </div>
-                    <div class="col-4" style="padding-bottom:1%; float:right" id="small-footer">
-                        <a href="index.html"><img src="photos/page-02.png" style="height:20px; float:right"></a><br>
-                        <a href="list.html"><img src="photos/page-03.png" style="height:20px; float:right"></a><br>
-                        <a href="mlis.html"><img src="photos/page-04.png" style="height:20px; float:right"></a>
+                    <div class="col-md-8" style="padding-right: 3%">
+                        <div class="tab">
+                            <button class="tablinks" onclick="openView(event, 'Art')" id="defaultOpen">Art</button>
+                            <button class="tablinks" onclick="openView(event, 'Writing')">Writing</button>
+                            <button class="tablinks" onclick="openView(event, 'MLIS')">MLIS</button>
+                        </div>
+                        <div id="Art" class="tabcontent">
+                            <div class="row justify-content-between" style="margin-top:2%">
+                                <div class="col-md-6">
+                                    <a href="ursula.html"><img src="/photos/ursula.jpg" style="width:100%;padding-bottom: 12%;"/></a>
+                                    <!--<h3 style="padding-bottom: 10%;">Q&A EDITORIAL ILLUSTRATION</h3>-->
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="postcard.html"><img src="/photos/postcard1.png" style="width:100%;padding-bottom: 12%;"/></a>
+                                    <!--<h3 style="padding-bottom: 10%;">HOLLAND POSTCARD</h3>-->
+                                </div>
+                            </div>
+                            <div class="row justify-content-between" style="margin-top:-2%">
+                                <div class="col-md-6">
+                                    <a href="launch.html"><img src="/photos/orionSpring.png" style="width:100%;padding-bottom: 12%;"/></a>
+                                    <!--<h3 style="padding-bottom: 10%;">ORION LAUNCH</h3>-->
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="gessner.html"><img src="/photos/gessner5.png" style="width:100%;padding-bottom: 12%;"/></a>
+                                    <!--<h3 style="padding-bottom: 10%;">ORION EDITORIAL ILLUSTRATIONS</h3>-->
+                                </div>
+                            </div>
+                            <div class="row justify-content-between">
+                                <div class="col-md-4">
+                                    <a href="tshirt.html"><img src="/photos/tshirt.jpeg" style="width:100%; padding-bottom: 12%;"/></a>
+                                    <!--<h3 style="padding-bottom: 10%;">MIDWEST T-SHIRT</h3>-->
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="observer.html"><img src="/photos/Observer2.jpg" style="width:100%; padding-bottom: 12%;"/></a>
+                                    <!--<h3 style="padding-bottom: 10%;">THE OBSERVER</h3>-->
+                                </div>
+                                <div class="col-md-4">
+                                    <a href="byrne.html"><img src="/photos/AlexandraByrne.png" style="width:100%;padding-bottom: 12%;"/></a>
+                                    <!--<h3 style="padding-bottom: 10%;">ALEXANDRA BYRNE</h3>-->
+                                </div>
+                            </div>
+                        </div>
+                        <div id="Writing" class="tabcontent">
+                            <div id="page-content" class="container-fluid" style="margin-top:2%">
+                                <div class="row justify-content-between">
+                                    <div class="col-md-6">
+                                        <a href="https://www.instagram.com/p/CpBqGiNrHZT/?img_index=1" target="_blank"><img src="/photos/insta.jpg" style="width:100%;padding-bottom: 10%;"/></a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a href="https://orionmagazine.org/article/t-kingfisher-ursula-vernon-fairy-tales-interview/" target="_blank"><img src="/photos/t-kingfisher.jpg" style="width:100%;padding-bottom: 10%;"/></a>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-between" style="margin-top:-2%">
+                                    <div class="col-md-6">
+                                        <a href="https://greencollege.ubc.ca/blog/influential-gc-players-reminisce-interview-former-residents-vanessa-timmer-and-melanie-thompson" target="_blank"><img src="/photos/GC Players copy.png" style="width:100%;padding-bottom: 10%;"/></a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a href="https://greencollege.ubc.ca/blog/interview-emma-cunliffe-next-principal-green-college" target="_blank"><img src="/photos/Emma copy.png" style="width:100%;padding-bottom: 10%;"/></a>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-between" style="margin-top:-2%">
+                                    <div class="col-md-6">
+                                        <a href="https://greencollege.ubc.ca/blog/generative-ai-classroom-background-information-educators" target="_blank"><img src="/photos/Vered-ubc.png" style="width:100%;padding-bottom: 10%;"/></a>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a href="https://greencollege.ubc.ca/blog/history-dutch-empire-indian-ocean-multidimensional-perspective" target="_blank"><img src="/photos/Eric-ubc.png" style="width:100%;padding-bottom: 10%;"/></a>
+                                    </div>
+                                </div>
+                                <!--<div class="row justify-content-between" style="margin-top:-2%">
+                                    <div class="col-md-6 animation">
+                                        <a href="https://orionmagazine.org/article/t-kingfisher-ursula-vernon-fairy-tales-interview/" target="_blank"><img src="/photos/ursula.jpg" style="width:100%;padding-bottom: 10%;"/></a>
+                                    </div>
+                                </div>-->
+                            </div>
+                        </div>
+                        <div id="MLIS" class="tabcontent">
+                            <div class="row justify-content-between" style="margin-top:2%">
+                                <div class="col-4">
+                                    <a><p style="padding-left: 1%;"><b>TITLE</b></p></a>
+                                </div>
+                                <div class="col-4">
+                                    <a id="desc"><p><b>ASSIGNMENT NAME</b></p></a>
+                                </div>
+                                <div class="col-3" style="text-align: right; padding-right: 3%;">
+                                    <p><b>CLASS</b></p>
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="row justify-content-between">
+                                <div class="col-4">
+                                    <a href="facet.html"><p style="padding-left: 1%;">Instruction Manual Classification System</p></a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="facet.html" id="desc"><p>Classification System - Create</p></a>
+                                </div>
+                                <div class="col-3" style="text-align: right; padding-right: 3%;">
+                                    <a href="facet.html"><p>509: Resource Description</p></a>
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="row justify-content-between">
+                                <div class="col-4">
+                                    <a href="thesaurus.html"><p style="padding-left: 1%;">Thesaurus for Romance Books</p></a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="thesaurus.html" id="desc"><p>Thesuarus - Create</p></a>
+                                </div>
+                                <div class="col-3" style="text-align: right; padding-right: 3%;">
+                                    <a href="thesaurus.html"><p>509: Resource Description</p></a>
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="row justify-content-between">
+                                <div class="col-4">
+                                    <a href="schema-create.html"><p style="padding-left: 1%;">Content Schema for Locations</p></a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="schema-create.html" id="desc"><p>Content Schema - Create</p></a>
+                                </div>
+                                <div class="col-3" style="text-align: right; padding-right: 3%;">
+                                    <a href="schema-create.html"><p>509: Resource Description</p></a>
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="row justify-content-between">
+                                <div class="col-4">
+                                    <a href="classification.html"><p style="padding-left: 1%;">Aarne–Thompson–Uther</p></a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="classification.html" id="desc"><p>Classification - Analyze</p></a>
+                                </div>
+                                <div class="col-3" style="text-align: right; padding-right: 3%;">
+                                    <a href="classification.html"><p>509: Resource Description</p></a>
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="row justify-content-between">
+                                <div class="col-4">
+                                    <a href="vocab-analyze.html"><p style="padding-left: 1%;">UNESCO Thesaurus</p></a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="vocab-analyze.html" id="desc"><p>Controlled Vocabulary - Analyze</p></a>
+                                </div>
+                                <div class="col-3" style="text-align: right; padding-right: 3%;">
+                                    <a href="vocab-analyze.html"><p>509: Resource Description</p></a>
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="row justify-content-between">
+                                <div class="col-4">
+                                    <a href="standard-analyze.html"><p style="padding-left: 1%;">LOM-SG</p></a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="standard-analyze.html" id="desc"><p>Content Standard - Analyze</p></a>
+                                </div>
+                                <div class="col-3" style="text-align: right; padding-right: 3%;">
+                                    <a href="standard-analyze.html"><p>509: Resource Description</p></a>
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="row justify-content-between">
+                                <div class="col-4">
+                                    <a href="data-analyze.html"><p style="padding-left: 1%;">BIBFRAME</p></a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="data-analyze.html" id="desc"><p>Data Format - Analyze</p></a>
+                                </div>
+                                <div class="col-3" style="text-align: right; padding-right: 3%;">
+                                    <a href="data-analyze.html"><p>509: Resource Description</p></a>
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="row justify-content-between">
+                                <div class="col-4">
+                                    <a href="integrated-analyze.html"><p style="padding-left: 1%;">Western Michigan University Library</p></a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="integrated-analyze.html" id="desc"><p>Systems Integration - Analyze</p></a>
+                                </div>
+                                <div class="col-3" style="text-align: right; padding-right: 3%;">
+                                    <a href="integrated-analyze.html"><p>509: Resource Description</p></a>
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="row justify-content-between">
+                                <div class="col-4">
+                                    <a href="integrated-create.html"><p style="padding-left: 1%;">Giles' Collection in Buffy the Vampire Slayer</p></a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="integrated-create.html" id="desc"><p>Systems Integration - Create</p></a>
+                                </div>
+                                <div class="col-3" style="text-align: right; padding-right: 3%;">
+                                    <a href="integrated-create.html"><p>509: Resource Description</p></a>
+                                </div>
+                                <hr>
+                            </div>
+                            <!--<div class="row justify-content-between">
+                                <div class="col-4">
+                                    <a href="reflection.html"><p style="padding-left: 1%;">Course Reflection</p></a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="reflection.html" id="desc"><p>Portfolio Submission</p></a>
+                                </div>
+                                <div class="col-3" style="text-align: right; padding-right: 3%;">
+                                    <a href="reflection.html"><p>509: Resource Description</p></a>
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="row justify-content-between">
+                                <div class="col-4">
+                                    <a href="peer-review.html"><p style="padding-left: 1%;">My Peer Reviews</p></a>
+                                </div>
+                                <div class="col-4">
+                                    <a href="peer-review.html" id="desc"><p>All Assignments</p></a>
+                                </div>
+                                <div class="col-3" style="text-align: right; padding-right: 3%;">
+                                    <a href="peer-review.html"><p>509: Resource Description</p></a>
+                                </div>
+                                <hr>
+                            </div>-->
+                        </div>
                     </div>
                 </div>
+                <br>
+                <br>
+                <br>
             </div>
-        </div>
-        <div class="tab">
-            <button class="tablinks" onclick="openView(event, 'Display')" id="defaultOpen">Display</button>
-            <button class="tablinks" onclick="openView(event, 'List')">List</button>
-        </div>
-        <div id="Display" class="tabcontent">
-            <div id="page-content" class="container-fluid" style="padding-top: 3%;">
-                <div class="row justify-content-between">
-                    <div class="col-md-4">
-                        <a href="tshirt.html"><img src="/photos/tshirt.jpeg" style="width:100%; padding-bottom: 3%;"/></a>
-                        <h3 style="padding-bottom: 10%;">MIDWEST T-SHIRT</h3>
-                    </div>
-                    <div class="col-md-7">
-                        <a href="gessner.html"><img src="/photos/gessner5.png" style="width:100%;padding-bottom: 2%;"/></a>
-                        <h3 style="padding-bottom: 10%;">ORION EDITORIAL ILLUSTRATIONS</h3>
-                    </div>
-                </div>
-                <div class="row justify-content-between" style="margin-top:-2%">
-                    <div class="col-md-7 animation">
-                        <a href="ursula.html"><img src="/photos/ursula.jpg" style="width:100%;padding-bottom: 3%;"/></a>
-                        <h3 style="padding-bottom: 10%;">Q&A EDITORIAL ILLUSTRATION</h3>
-                    </div>
-                    <div class="col-md-4 animation">
-                        <a href="byrne.html"><img src="/photos/AlexandraByrne.png" style="width:100%;padding-bottom: 3%;"/></a>
-                        <h3 style="padding-bottom: 10%;">ALEXANDRA BYRNE</h3>
-                    </div>
-                </div>
-                <div class="row justify-content-between" style="margin-top:-2%">
-                    <div class="col-md-4 animation">
-                        <a href="observer.html"><img src="/photos/Observer2.jpg" style="width:100%; padding-bottom: 3%;"/></a>
-                        <h3 style="padding-bottom: 10%;">THE OBSERVER</h3>
-                    </div>
-                    <div class="col-md-7 animation">
-                        <a href="launch.html"><img src="/photos/orionSpring.png" style="width:100%;padding-bottom: 2%;"/></a>
-                        <h3 style="padding-bottom: 10%;">ORION LAUNCH</h3>
-                    </div>
-                </div>
-                <div class="row justify-content-between" style="margin-top:-2%">
-                    <div class="col-md-7 animation">
-                        <a href="postcard.html"><img src="/photos/postcard1.png" style="width:100%;padding-bottom: 3%;"/></a>
-                        <h3 style="padding-bottom: 10%;">HOLLAND POSTCARD</h3>
-                    </div>
-                    <div class="col-md-4 animation">
-                        <a href="mermaid.html"><img src="/photos/mermaid2.png" style="width:80%;padding-bottom: 5%;"/></a>
-                        <h3 style="padding-bottom: 10%;">MERMAID LINOCUT</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="List" class="tabcontent">
-            <div id="page-content" class="container-fluid">
-                <div class="row justify-content-between">
-                    <div class="col-4">
-                        <p><b>NAME</b></p>
-                    </div>
-                    <div class="col-7">
-                       <p><b>DESCRIPTION</b></p>
-                    </div>
-                    <div class="col-1" id="year" style="text-align: right; padding-right: 3%;">
-                        <p><b>YEAR</b></p>
-                    </div>
-                </div>
-                <div class="row justify-content-between">
-                    <div class="col-4">
-                        <a href="gessner.html"><p>Orion Editorial Illustrations</p></a>
-                    </div>
-                    <div class="col-7">
-                        <a href="gessner.html"><p>Monthly Column, Editorial Illustration, Orion Magazine</p></a>
-                    </div>
-                    <div class="col-1" id="year" style="text-align: right; padding-right: 3%;">
-                        <p>2023</p>
-                    </div>
-                </div>
-                <div class="row justify-content-between">
-                    <div class="col-4">
-                        <a href="ursula.html"><p>Q&A Editorial Illustration</p></a>
-                    </div>
-                    <div class="col-7">
-                        <a href="ursula.html"><p>Q&A with Ursula Vernon, Editorial Illustration, Orion Magazine</p></a>
-                    </div>
-                    <div class="col-1" id="year" style="text-align: right; padding-right: 3%;">
-                        <p>2023</p>
-                    </div>
-                </div>
-                <div class="row justify-content-between">
-                    <div class="col-4">
-                        <a href="launch.html"><p>Orion Launch</p></a>
-                    </div>
-                    <div class="col-7">
-                        <a href="launch.html"><p>Graphic Design, Social Media, Photoshop, Marketing</p></a>
-                    </div>
-                    <div class="col-1" id="year" style="text-align: right; padding-right: 3%;">
-                        <p>2023</p>
-                    </div>
-                </div>
-                <div class="row justify-content-between">
-                    <div class="col-4">
-                        <a href="postcard.html"><p>Holland Postcard</p></a>
-                    </div>
-                    <div class="col-7">
-                        <a href="postcard.html"><p>Retail Product, Illustration, Frances Jaye, Vintage Inspired</p></a>
-                    </div>
-                    <div class="col-1" id="year" style="text-align: right; padding-right: 3%;">
-                        <p>2023</p>
-                    </div>
-                </div>
-                <div class="row justify-content-between">
-                    <div class="col-4">
-                        <a href="mermaid.html"><p>Mermaid Linocut</p></a>
-                    </div>
-                    <div class="col-7">
-                        <a href="mermaid.html"><p>Relief Printmaking, Linoleum Printmaking, Folk Inspired</p></a>
-                    </div>
-                    <div class="col-1" id="year" style="text-align: right; padding-right: 3%;">
-                        <p>2023</p>
-                    </div>
-                </div>
-                <div class="row justify-content-between">
-                    <div class="col-4">
-                        <a href="tshirt.html"><p>Midwest T-Shirt</p></a>
-                    </div>
-                    <div class="col-7">
-                        <a href="tshirt.html"><p>Retail Product, Illustration, Frances Jaye</p></a>
-                    </div>
-                    <div class="col-1" id="year" style="text-align: right; padding-right: 3%;">
-                        <p>2022</p>
-                    </div>
-                </div>
-                <div class="row justify-content-between">
-                    <div class="col-4">
-                        <a href="observer.html"><p>The Observer</p></a>
-                    </div>
-                    <div class="col-7">
-                        <a href="observer.html"><p>Layout Design, Text, Adobe InDesign</p></a>
-                    </div>
-                    <div class="col-1" id="year" style="text-align: right; padding-right: 3%;">
-                        <p>2022</p>
-                    </div>
-                </div>
-                <div class="row justify-content-between">
-                    <div class="col-4">
-                        <a href="byrne.html"><p>Alexandra Byrne</p></a>
-                    </div>
-                    <div class="col-7" >
-                        <a href="byrne.html"><p>Illustration, Vector Art, Adobe Illustrator</p></a>
-                    </div>
-                    <div class="col-1" id="year" style="text-align: right; padding-right: 3%;">
-                        <p>2021</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        <br>
+        
         <script>
         lazyload();
         function openView(evt, viewType) {
